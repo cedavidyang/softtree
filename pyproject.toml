@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "softtree"
+version = "0.1.0"
+description = "A custom soft tree implementation"
+dependencies = [
+    "torch",        # Add whatever libraries softtree needs here
+    "numpy"
+]
+
+# This automatically finds the 'softtree' folder inside the repo
+[tool.setuptools.packages.find]
+where = ["."]
