@@ -7,8 +7,11 @@ name = "softtree"
 version = "0.1.0"
 description = "A custom soft tree implementation"
 dependencies = [
-    "torch",        # Add whatever libraries softtree needs here
-    "numpy"
+    "torch",
+    "pygraphviz",
+    "sklearn",
+    "scipy",
+    "numpy",
 ]
 
 # This automatically finds the 'softtree' folder inside the repo
